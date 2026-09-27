@@ -1,0 +1,147 @@
+.profilePage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 0px;
+}
+.profilePage .headProfile {
+    position: relative;
+    padding-left: 29px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+    padding-top: 7%;
+}
+.profilePage .headProfile .circle {
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    background-color: var(--clr-accent);
+    left: -120%;
+    top: -80%;
+    border-radius: 50%;
+    z-index: 0;
+}
+.profilePage .headProfile h2 , .profilePage .headProfile p {
+    color: var(--clr-background);
+    z-index: 1;
+    display: block;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    font-family: var(--font-system);
+}
+.profilePage form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0px 0px 150px;
+    width: 70%;
+}
+.profilePage form label {
+    margin-top: 29px;
+    font-size: 1em;
+    color: var(--clr-text);
+    font-family: var(--font-system);
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.profilePage form input {
+    width: 70%;
+    background-color:#5d6d7e2c ;
+    border: 1.8px solid #5d6d7e;
+    border-radius: 10px;
+    padding: 4px;
+    transition: all .3s ease;
+}
+.profilePage form input:focus {
+    background-color:#e67d221f  ;
+    border:1.5px solid #e67d22 ;
+    transform: scale(1.1);
+    outline: none;
+    box-shadow: 5px 5px 9px #2c3e508a ;
+}
+.profilePage form input:hover {
+    border-color: #e67d22;
+}
+.profilePage form button {
+    margin-top: 39px;
+    width: 30%;
+    border-radius: 20px;
+    background-color: var(--clr-accent );
+    color: var(--clr-background);
+    border: none;
+    padding: 2px;
+    transition: all .3s ease;
+}
+.profilePage form button:hover {
+    transform: scale(1.1);
+    box-shadow: 7px 7px 7px #5d6d7e7c;
+    background-color: #cc6e1c;
+}
+
+@media (max-width: 1110px) {
+  .profilePage .headProfile .circle {
+    left: -140%;
+    top: -85%;
+  }
+  .profilePage form {
+    padding-left: 60px;
+  }
+}
+@media (max-width: 920px) {
+  .profilePage {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  .profilePage .headProfile {
+    justify-content: center;
+    gap: 0px;
+    padding-left: 0;
+  }
+  .profilePage .headProfile .circle {
+    display: none;
+  }
+  .profilePage .headProfile h2 , .profilePage .headProfile p {
+    color: var(--clr-accent);
+    text-align: center;
+  }
+  .profilePage form {
+    padding: 0px;
+  }
+  .profilePage form input {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .profilePage {
+    padding-top: 110px;
+  }
+  .profilePage .headProfile h2 {
+    font-size: 1.4em;
+  }
+  .profilePage .headProfile p {
+    font-size: .8em;
+  }
+  .profilePage form {
+    width: 80%;
+  }
+  .profilePage form input {
+    width: 100%;
+  }
+  .profilePage form button {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .carts {
+    width: 80%;
+  }
+  .carts .cartBox .cart-pic img {
+    width: 190px;
+  }
+}

@@ -1,0 +1,223 @@
+.parentSectionOrder {
+  width: 100%;
+  padding: 100px 0px;
+}
+.orderPage {
+  width: 100%;
+}
+.orderPage .orderSec {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 75%;
+  margin: auto;
+  padding: 1% 0%;
+  background-color: #5d6d7e3a;
+  border-bottom: 1px solid var(--clr-primary);
+}
+.orderPage .orderSec img {
+  width: 100px;
+  border: 1px solid var(--clr-primary);
+}
+.orderPage .orderSec .cart-content,
+.orderPage .orderSec .cart-specif,
+.orderPage .orderSec .cart-title,
+.orderPage .orderSec .cart-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.orderPage .orderSec .cart-content div,
+.orderPage .orderSec .cart-specif div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 9px;
+}
+.orderPage .orderSec .cart-content div .colorBox {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid var(--clr-text);
+}
+.orderPage .orderSec .cart-content div h6,
+.orderPage .orderSec .cart-specif div h6,
+.orderPage .orderSec .cart-title h6 {
+  margin: 0%;
+}
+.orderPage .orderSec .cart-content div p,
+.orderPage .orderSec .cart-specif div p {
+  margin: 0%;
+}
+.orderPage .orderSec .cart-status i {
+  font-size: 1.2em;
+}
+.orderPage .orderSec .cart-status .bi-clock-history {
+  color: var(--clr-accent);
+}
+.orderPage .orderSec .cart-status .bi-arrow-repeat {
+  color: var(--clr-primary);
+}
+.orderPage .orderSec .cart-status .bi-patch-check {
+  color: green;
+}
+.orderPage .totaling {
+  width: 75%;
+  margin: 1% auto;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-direction: column;
+  padding: 2% 0%;
+  border-top: 1px solid var(--clr-text);
+  font-family: var(--font-system);
+  gap: 9px;
+}
+.orderPage .totaling .total-price {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 10px;
+  color: var(--clr-text);
+}
+.orderPage .totaling .total-price h5 {
+  margin-bottom: 0%;
+  margin-top: 8px;
+  text-align: center;
+}
+.orderPage .totaling .buy-btn input {
+  width: 14%;
+  border-radius: 10px;
+  box-shadow: -4px 5px 9px #2c3e50bd;
+  border: 1px solid var(--clr-text);
+  color: var(--clr-text);
+  background-color: #2c3e503a;
+  padding: 5px 40px;
+  font-weight: bold;
+  font-family: var(--font-system);
+  text-decoration: none;
+}
+.orderPage .totaling .buy-btn input:hover {
+  color: var(--clr-accent);
+  border-color: var(--clr-accent);
+  background-color: #e67d2217;
+}
+
+@media (max-width: 1000px) {
+  .parentSectionOrder {
+    padding-top: 110px;
+  }
+  .orderPage .orderSec {
+    width: 80%;
+  }
+  .orderPage .orderSec img {
+    width: 80px;
+  }
+  .orderPage .orderSec .cart-content,
+  .orderPage .orderSec .cart-specif,
+  .orderPage .orderSec .cart-title,
+  .orderPage .orderSec .cart-status {
+    gap: 4px;
+  }
+  .orderPage .orderSec .cart-content div,
+  .orderPage .orderSec .cart-specif div {
+    gap: 5px;
+  }
+  .orderPage .orderSec .cart-content div .colorBox {
+    width: 14px;
+    height: 14px;
+  }
+  .orderPage .orderSec .cart-content div h6,
+  .orderPage .orderSec .cart-specif div h6,
+  .orderPage .orderSec .cart-title h6 {
+    font-size: 0.9em;
+  }
+  .orderPage .orderSec .cart-status i {
+    font-size: 1em;
+  }
+  .orderPage .totaling {
+    width: 80%;
+  }
+  .orderPage .totaling .total-price {
+    gap: 5px;
+  }
+  .orderPage .totaling .total-price h5 {
+    margin-top: 4px;
+  }
+  .orderPage .totaling .buy-btn input {
+    width: 20%;
+    padding: 2px 38px;
+    font-weight: normal;
+  }
+}
+@media (max-width: 768px) {
+  .parentSectionOrder {
+    padding-top: 160px;
+  }
+  .orderPage .orderSec {
+    width: 85%;
+  }
+  .orderPage .totaling {
+    width: 85%;
+    gap: 3px;
+  }
+  .orderPage .totaling .buy-btn input {
+    width: 25%;
+    padding: 2px 20px;
+  }
+}
+@media (max-width: 520px) {
+  .parentSectionOrder {
+    padding-top: 140px;
+  }
+  .orderPage .orderSec img {
+    width: 60px;
+  }
+  .orderPage .orderSec .cart-content div h6,
+  .orderPage .orderSec .cart-specif div h6,
+  .orderPage .orderSec .cart-title h6 {
+    font-size: 0.7em;
+  }
+  .orderPage .orderSec .cart-content div p,
+  .orderPage .orderSec .cart-specif div p {
+    font-size: 0.7rem;
+  }
+  .orderPage .orderSec .cart-status i {
+    font-size: .8rem;
+  }
+  .orderPage .orderSec .cart-content div .colorBox {
+    width: 10px;
+    height: 10px;
+  }
+  .orderPage .totaling {
+    font-size: .9rem ;
+  }
+  .orderPage .totaling .total-price h5 {
+    margin-top: 0px;
+  }
+  .orderPage .totaling .total-price h5 , .orderPage .totaling .total-price h3 {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 480px) {
+  .parentSectionOrder {
+    padding-top: 110px;
+  }
+  .orderPage .orderSec {
+    width: 98%;
+    justify-content: space-between;
+    padding: 2px 8px;
+  }
+  .orderPage .orderSec .cart-content,
+  .orderPage .orderSec .cart-specif,
+  .orderPage .orderSec .cart-title,
+  .orderPage .orderSec .cart-status {
+    gap: 2px;
+  }
+  .orderPage .totaling {
+    width: 90%;
+  }
+}

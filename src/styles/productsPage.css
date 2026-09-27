@@ -1,0 +1,86 @@
+.filterContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 50px;
+    padding: 110px 50px ;
+    background-color: var(--clr-background );
+}
+.filterContainer .cardsPro {
+    box-shadow: 0px 0px 15px #2c3e509f;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 15px;
+    display: grid;
+    color: var(--clr-text);
+    font-family: var(--font-system);
+}
+.filterContainer .cardsPro > :not(:first-child){
+    padding: 0px 33px;
+}
+.cardsPro .img-pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardsPro .img-pro img {
+    width: 80%;
+    border-radius: 9px;
+    border: 1px solid var(--clr-text);
+}
+.cardsPro .title-pro h3 {
+    font-size: 1.7em;
+    margin-top: 3%;
+}
+.cardsPro .color-pro .colorBox , .cardsPro .size-pro .sizeBox {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 9px;
+    transition: all .5s ease;
+}
+.cardsPro .color-pro .colorBox span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--clr-primary );
+    cursor: pointer;
+}
+.cardsPro .color-pro .colorBox span.active ,.cardsPro .size-pro .sizeBox li.active {
+    border: 2px solid var(--clr-accent);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px #e67d2265;
+    color: var(--clr-accent);
+}
+.cardsPro .size-pro .sizeBox li {
+    list-style-type: none;
+    box-shadow: 0px 0px 5px #2c3e5080;
+    border: 1px solid #5d6d7e80;
+    padding: 0px 4px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.cardsPro .buyBtn {
+    color: var(--clr-text);
+    border-color: var(--clr-text);
+    margin: 2% 7% 7% 7%;
+    border-radius: 5px;
+    transition: all .5s ease;
+    font-weight: bold;
+}
+.cardsPro .buyBtn:hover {
+    color: var(--clr-accent);
+    border-color: var(--clr-accent);
+}
+
+@media (max-width: 400px) {
+    .filterContainer {
+        padding: 120px 30px;
+    }
+    .filterContainer .cardsPro {
+        padding: 5px;
+    }
+    .cardsPro .img-pro img {
+        width: 70%;
+    }
+}

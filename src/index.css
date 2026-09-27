@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+:root {
+    --clr-primary : #5d6d7e ;
+    --clr-background : #fdfbf7 ;
+    --clr-text : #2c3e50 ;
+    --clr-accent : #e67e22 ;
+    --font-system : system-ui, 'Segoe UI', Roboto, sans-serif ;
+    --font-marker :  "Permanent Marker", cursive;
+}
+html , body {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: var(--clr-background) ;
+}

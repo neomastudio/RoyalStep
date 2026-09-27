@@ -1,0 +1,35 @@
+.button-back {
+  position: fixed;
+  z-index: 1000;
+  left: 2%;
+  top: 93%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  background-color: var(--clr-accent);
+  padding: 0px 5px;
+  color: var(--clr-background);
+  border-radius: 5px;
+  border: 1px solid #bb6011;
+  cursor: pointer;
+}
+.button-back i {
+  font-size: 0.9rem;
+}
+.button-back p {
+  margin: 0%;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .button-back {
+    left: 4%;
+  }
+  .button-back i {
+    font-size: .7rem;
+  }
+  .button-back p {
+    font-size: .9rem;
+  }
+}
