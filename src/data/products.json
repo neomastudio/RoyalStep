@@ -4,7 +4,7 @@
         "category": "sneakers",
         "title": "New Balance",
         "price":389,
-        "img":"/sneaker/sneaker-1.jpg",
+        "img":"/RoyalStep/sneaker/sneaker-1.jpg",
         "colors":["white","black","antiquewhite","gray","green"],
         "sizes":[38,39,40,41,42,43],
         "stock":12
@@ -14,7 +14,7 @@
         "category": "sneakers",
         "title": "Adidas",
         "price":229,
-        "img":"/sneaker/sneaker-2.jpg",
+        "img":"/RoyalStep/sneaker/sneaker-2.jpg",
         "colors":["white","black"],
         "sizes":[38,39,40,41],
         "stock":15
@@ -24,7 +24,7 @@
         "category": "sneakers",
         "title": "Jordan",
         "price":249,
-        "img":"/sneaker/sneaker-3.jpg",
+        "img":"/RoyalStep/sneaker/sneaker-3.jpg",
         "colors":["white","black","red","blue","green"],
         "sizes":[40,41,42,43,44],
         "stock":10
@@ -34,7 +34,7 @@
         "category": "sneakers",
         "title": "Salomon",
         "price":279,
-        "img":"/sneaker/sneaker-4.jpg",
+        "img":"/RoyalStep/sneaker/sneaker-4.jpg",
         "colors":["white","black","red","blue","green"],
         "sizes":[40,41,42,43,44],
         "stock":15
@@ -44,7 +44,7 @@
         "category": "sneakers",
         "title": "Adidas",
         "price":319,
-        "img":"/sneaker/sneaker-5.jpg",
+        "img":"/RoyalStep/sneaker/sneaker-5.jpg",
         "colors":["white","black"],
         "sizes":[40,41,42,43,44],
         "stock":13
@@ -54,7 +54,7 @@
         "category": "sneakers",
         "title": "Nike",
         "price":389,
-        "img":"/sneaker/sneaker-6.jpg",
+        "img":"/RoyalStep/sneaker/sneaker-6.jpg",
         "colors":["pink"],
         "sizes":[39,40,41,42],
         "stock":12
@@ -64,7 +64,7 @@
         "category": "formal",
         "title": "Gucci",
         "price":890,
-        "img":"/formal/formal-1.jpg",
+        "img":"/RoyalStep/formal/formal-1.jpg",
         "colors":["black"],
         "sizes":[37,38,39],
         "stock":10
@@ -74,7 +74,7 @@
         "category": "formal",
         "title": "Prada",
         "price":1090,
-        "img":"/formal/formal-2.jpg",
+        "img":"/RoyalStep/formal/formal-2.jpg",
         "colors":["blue","red","antiquewhite"],
         "sizes":[38,39,40],
         "stock":8
@@ -84,7 +84,7 @@
         "category": "formal",
         "title": "YSL",
         "price":1290,
-        "img":"/formal/formal-3.jpg",
+        "img":"/RoyalStep/formal/formal-3.jpg",
         "colors":["black","red","antiquewhite"],
         "sizes":[38,39,40],
         "stock":5
@@ -94,7 +94,7 @@
         "category": "formal",
         "title": "Christian Louboutin",
         "price":1480,
-        "img":"/formal/formal-4.jpg",
+        "img":"/RoyalStep/formal/formal-4.jpg",
         "colors":["antiquewhite","black"],
         "sizes":[39,40,41],
         "stock":6
@@ -104,7 +104,7 @@
         "category": "formal",
         "title": "Gucci",
         "price":1645,
-        "img":"/formal/formal-5.jpg",
+        "img":"/RoyalStep/formal/formal-5.jpg",
         "colors":["antiquewhite"],
         "sizes":[38,39,40],
         "stock":9
@@ -114,7 +114,7 @@
         "category": "formal",
         "title": "Salvatore Ferragamo",
         "price":1839,
-        "img":"/formal/formal-6.jpg",
+        "img":"/RoyalStep/formal/formal-6.jpg",
         "colors":["red","antiquewhite","black"],
         "sizes":[38,39,40],
         "stock":7
@@ -124,7 +124,7 @@
         "category": "formal",
         "title": "Jimmy Choo",
         "price":1390,
-        "img":"/formal/formal-7.jpg",
+        "img":"/RoyalStep/formal/formal-7.jpg",
         "colors":["antiquewhite"],
         "sizes":[38,39,40],
         "stock":3
@@ -134,7 +134,7 @@
         "category": "hiking",
         "title": "Mingye",
         "price":200,
-        "img":"/hiking/hiking-1.jpg",
+        "img":"/RoyalStep/hiking/hiking-1.jpg",
         "colors":["green","blue","yellow","black","purple"],
         "sizes":[40,41,42,43,44],
         "stock":16
@@ -144,7 +144,7 @@
         "category": "hiking",
         "title": "Mingye",
         "price":285,
-        "img":"/hiking/hiking-2.jpg",
+        "img":"/RoyalStep/hiking/hiking-2.jpg",
         "colors":["black","green"],
         "sizes":[40,41,42,43],
         "stock":14
@@ -154,7 +154,7 @@
         "category": "hiking",
         "title": "QC",
         "price":318,
-        "img":"/hiking/hiking-3.jpg",
+        "img":"/RoyalStep/hiking/hiking-3.jpg",
         "colors":["brown","black","green"],
         "sizes":[40,41,42,43],
         "stock":10
@@ -164,7 +164,7 @@
         "category": "hiking",
         "title": "Salomon",
         "price":253,
-        "img":"/hiking/hiking-4.jpg",
+        "img":"/RoyalStep/hiking/hiking-4.jpg",
         "colors":["black"],
         "sizes":[39,40,41,42],
         "stock":8
@@ -174,7 +174,7 @@
         "category": "hiking",
         "title": "Mingye",
         "price":460,
-        "img":"/hiking/hiking-5.jpg",
+        "img":"/RoyalStep/hiking/hiking-5.jpg",
         "colors":["antiquewhite","black","green"],
         "sizes":[39,40,41,42,43],
         "stock":13
@@ -184,7 +184,7 @@
         "category": "kids",
         "title": "New Balance",
         "price":59,
-        "img":"/kids/kids-1.jpg",
+        "img":"/RoyalStep/kids/kids-1.jpg",
         "colors":["white"],
         "sizes":[25,26,27,28],
         "stock":13
@@ -194,7 +194,7 @@
         "category": "kids",
         "title": "Slippers",
         "price":39,
-        "img":"/kids/kids-2.jpg",
+        "img":"/RoyalStep/kids/kids-2.jpg",
         "colors":["pink","purple","white"],
         "sizes":[22,23,24,25],
         "stock":10
@@ -204,7 +204,7 @@
         "category": "kids",
         "title": "Jordan",
         "price":108,
-        "img":"/kids/kids-3.jpg",
+        "img":"/RoyalStep/kids/kids-3.jpg",
         "colors":["black","red","blue","green"],
         "sizes":[22,23,24],
         "stock":11
@@ -214,7 +214,7 @@
         "category": "kids",
         "title": "Jordan",
         "price":115,
-        "img":"/kids/kids-4.jpg",
+        "img":"/RoyalStep/kids/kids-4.jpg",
         "colors":["red"],
         "sizes":[25,26,27,28],
         "stock":15
@@ -224,7 +224,7 @@
         "category": "kids",
         "title": "Puma",
         "price":67,
-        "img":"/kids/kids-5.jpg",
+        "img":"/RoyalStep/kids/kids-5.jpg",
         "colors":["purple"],
         "sizes":[28,29,30,31,32],
         "stock":12
@@ -234,7 +234,7 @@
         "category": "kids",
         "title": "Puma",
         "price":93,
-        "img":"/kids/kids-6.jpg",
+        "img":"/RoyalStep/kids/kids-6.jpg",
         "colors":["gray"],
         "sizes":[27,28,29,30],
         "stock":10
@@ -244,7 +244,7 @@
         "category": "sandals",
         "title": "Sandal",
         "price":73,
-        "img":"/sandals/sandal-1.jpg",
+        "img":"/RoyalStep/sandals/sandal-1.jpg",
         "colors":["brown","black"],
         "sizes":[38,39,40,41],
         "stock":18
@@ -254,7 +254,7 @@
         "category": "sandals",
         "title": "Sandal",
         "price":89,
-        "img":"/sandals/sandal-2.jpg",
+        "img":"/RoyalStep/sandals/sandal-2.jpg",
         "colors":["antiquewhite","white"],
         "sizes":[38,39,40],
         "stock":16
@@ -264,7 +264,7 @@
         "category": "sandals",
         "title": "Sandal",
         "price":77,
-        "img":"/sandals/sandal-3.jpg",
+        "img":"/RoyalStep/sandals/sandal-3.jpg",
         "colors":["brown","black","white","red"],
         "sizes":[39,40,41],
         "stock":17
@@ -274,7 +274,7 @@
         "category": "sandals",
         "title": "Sandal",
         "price":93,
-        "img":"/sandals/sandal-4.jpg",
+        "img":"/RoyalStep/sandals/sandal-4.jpg",
         "colors":["white"],
         "sizes":[38,39,40],
         "stock":18
@@ -284,7 +284,7 @@
         "category": "sandals",
         "title": "Sandal",
         "price":95,
-        "img":"/sandals/sandal-5.jpg",
+        "img":"/RoyalStep/sandals/sandal-5.jpg",
         "colors":["antiquewhite","white","black"],
         "sizes":[38,39,40,41],
         "stock":13
@@ -294,7 +294,7 @@
         "category": "sandals",
         "title": "Sandal",
         "price":105,
-        "img":"/sandals/sandal-6.jpg",
+        "img":"/RoyalStep/sandals/sandal-6.jpg",
         "colors":["white"],
         "sizes":[38,39,40,41],
         "stock":14
@@ -304,7 +304,7 @@
         "category": "sandals",
         "title": "Sandal",
         "price":112,
-        "img":"/sandals/sandal-7.jpg",
+        "img":"/RoyalStep/sandals/sandal-7.jpg",
         "colors":["black"],
         "sizes":[38,39,40,41],
         "stock":15
@@ -314,7 +314,7 @@
         "category": "sandals",
         "title": "Sandal",
         "price":86,
-        "img":"/sandals/sandal-8.jpg",
+        "img":"/RoyalStep/sandals/sandal-8.jpg",
         "colors":["white","black","antiquewhite"],
         "sizes":[39,40],
         "stock":15
@@ -324,7 +324,7 @@
         "category": "boots",
         "title": "Boot",
         "price":531,
-        "img":"/boots/boot-1.jpg",
+        "img":"/RoyalStep/boots/boot-1.jpg",
         "colors":["brown","black"],
         "sizes":[39,40,41],
         "stock":11
@@ -334,7 +334,7 @@
         "category": "boots",
         "title": "Boot",
         "price":227,
-        "img":"/boots/boot-2.jpg",
+        "img":"/RoyalStep/boots/boot-2.jpg",
         "colors":["black"],
         "sizes":[39,40,41],
         "stock":11
@@ -344,7 +344,7 @@
         "category": "boots",
         "title": "Boot",
         "price":257,
-        "img":"/boots/boot-3.jpg",
+        "img":"/RoyalStep/boots/boot-3.jpg",
         "colors":["antiquewhite","brown"],
         "sizes":[39,40,41],
         "stock":10
@@ -354,7 +354,7 @@
         "category": "boots",
         "title": "Boot",
         "price":257,
-        "img":"/boots/boot-4.jpg",
+        "img":"/RoyalStep/boots/boot-4.jpg",
         "colors":["antiquewhite","brown","black"],
         "sizes":[39,40,41,42],
         "stock":13
@@ -364,7 +364,7 @@
         "category": "boots",
         "title": "Boot",
         "price":495,
-        "img":"/boots/boot-5.jpg",
+        "img":"/RoyalStep/boots/boot-5.jpg",
         "colors":["brown","black"],
         "sizes":[39,40],
         "stock":11
@@ -374,7 +374,7 @@
         "category": "boots",
         "title": "Boot",
         "price":213,
-        "img":"/boots/boot-6.jpg",
+        "img":"/RoyalStep/boots/boot-6.jpg",
         "colors":["antiquewhite","white"],
         "sizes":[38,39,40,41],
         "stock":14
@@ -384,7 +384,7 @@
         "category": "boots",
         "title": "Boot",
         "price":313,
-        "img":"/boots/boot-7.jpg",
+        "img":"/RoyalStep/boots/boot-7.jpg",
         "colors":["black","red"],
         "sizes":[40,41],
         "stock":12
@@ -394,7 +394,7 @@
         "category": "boots",
         "title": "Boot",
         "price":237,
-        "img":"/boots/boot-8.jpg",
+        "img":"/RoyalStep/boots/boot-8.jpg",
         "colors":["white","antiquewhite","brown"],
         "sizes":[39,40,41],
         "stock":9
@@ -404,7 +404,7 @@
         "category": "boots",
         "title": "Boot",
         "price":385,
-        "img":"/boots/boot-9.jpg",
+        "img":"/RoyalStep/boots/boot-9.jpg",
         "colors":["black"],
         "sizes":[38,39,40],
         "stock":10

@@ -5,7 +5,7 @@ function EmptySection() {
         <>
         <div className='empty-sec'>
             <div className='imgEmpty'>
-                <img src='/empty-pic.png'/>
+                <img src={`${import.meta.env.BASE_URL}empty-pic.png`}/>
             </div>
             <div className='paraEmpty'>
                 <h3>Oops! Nothing here...</h3>

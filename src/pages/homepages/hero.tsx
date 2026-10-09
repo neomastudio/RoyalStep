@@ -16,7 +16,7 @@ function Hero() {
           </svg>
         </div>
         <div className="shoes-pic">
-            <img src="/shoes.png"/>
+            <img src={`${import.meta.env.BASE_URL}shoes.png`}/>
         </div>
         <div className="shop-name">
           <h1>RoyalStep</h1>

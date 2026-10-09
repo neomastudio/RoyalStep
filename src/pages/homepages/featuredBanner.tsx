@@ -22,9 +22,9 @@ function FeaturedBanner() {
           </div>
           <div className="col-12 col-md-5 order-1 order-md-2">
             <div className="sec-photo">
-              <img src="/feature-pic.jpg" />
-              <img src="/feature-pic-1.jpg" className="childOne" />
-              <img src="/feature-pic-2.jpg" className="childTwo" />
+              <img src={`${import.meta.env.BASE_URL}feature-pic.jpg`} />
+              <img src={`${import.meta.env.BASE_URL}feature-pic-1.jpg`} className="childOne" />
+              <img src={`${import.meta.env.BASE_URL}feature-pic-2.jpg`} className="childTwo" />
             </div>
           </div>
         </div>
