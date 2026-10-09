@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import ButtonBack from "./buttonBack";
 
-function Profile() {
+export default function Profile() {
   const dispatch = useDispatch();
 
   const savedProfile = localStorage.getItem("profile");
@@ -167,4 +167,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+
